@@ -1,0 +1,362 @@
+[
+  {
+    "id": "c630956e-3bd7-4ebe-8770-0420c9510e4f",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "try not to it\u0027s a bad pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee2f703e-9ec0-41d6-b5a1-02856bae10d9",
+    "data": [
+      {
+        "text": "i think i ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t like it\u0027s a bad pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f3ba3041-4859-4ee0-85ad-e2ca526316ad",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t want it\u0027s a bad pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "570efc08-5069-447b-89ea-f7bd9936e0b4",
+    "data": [
+      {
+        "text": "ir\u0027s a ",
+        "userDefined": false
+      },
+      {
+        "text": "bad experience it\u0027s a bad pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "551626c2-a067-41b3-8ea1-cf96fb2105e0",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t think  it was the best pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13aa002d-ef5d-4ff5-a0e9-143ae740e4c2",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "avoid this it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7e2ec80-9ab9-4fbe-b296-11e71e87f46b",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "shudder at it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef178afe-7be6-41b8-a466-b6fd653564cf",
+    "data": [
+      {
+        "text": "we ",
+        "userDefined": false
+      },
+      {
+        "text": "distaste it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21ebbfac-c309-47b6-8237-d81994ef08a9",
+    "data": [
+      {
+        "text": "It ",
+        "userDefined": false
+      },
+      {
+        "text": "repulsive it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b75ed6cc-bcb8-4f5f-b2d3-1892284ba503",
+    "data": [
+      {
+        "text": "i\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "disgusted it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c830e76-9109-4dac-9d47-eecae3e466a7",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "repelled by it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9dcb320e-3205-476f-a1df-4d763e954b0f",
+    "data": [
+      {
+        "text": "i have ",
+        "userDefined": false
+      },
+      {
+        "text": "no stomach for it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab39bbb1-b8ed-43ad-a478-d906cd85fe84",
+    "data": [
+      {
+        "text": "i have ",
+        "userDefined": false
+      },
+      {
+        "text": "no taste it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3976bd3a-8b49-4860-b8d7-4487a750af34",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "averse to it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0efec83e-f319-43ab-a147-15c3aa65b927",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "detest it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b82d6417-e71a-4b46-8488-78672f088d68",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "reject it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e831be51-d451-4cc3-a0ab-5875237834fa",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "shun it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a434469-8d72-4a03-941a-5439babf7919",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "loathe it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "268e4a14-24f1-4d89-9eee-9b82f45f99fd",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "hate it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0ca1abf-10f7-445a-b850-8fa19c426300",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "dislike it was the worst pizza experience ever",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

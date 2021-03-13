@@ -1,0 +1,33 @@
+{
+  "id": "24bdcf24-482b-432a-93bc-8b788e7f6bc3",
+  "parentId": "c495670d-188e-49de-9ada-372d98aaa579",
+  "rootParentId": "c495670d-188e-49de-9ada-372d98aaa579",
+  "name": "QuickSearch_askLike - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_like_text",
+    "QuickSearch_askLike-followup",
+    "welcomeintro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please try to start your sentence with \"I like\". If you prefer to restart, Type/restart."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

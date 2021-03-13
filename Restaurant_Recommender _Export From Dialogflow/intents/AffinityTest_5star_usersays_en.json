@@ -1,0 +1,494 @@
+[
+  {
+    "id": "50172966-d9a5-43ab-a265-b229a3402152",
+    "data": [
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bbee1537-09fb-45ed-a206-6c74740d89e5",
+    "data": [
+      {
+        "text": "two",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f7a7c2b-a3e0-4160-96c5-9f526ef98fd1",
+    "data": [
+      {
+        "text": "three",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "df084efd-51cb-4cb3-9d24-5ece3e703bf2",
+    "data": [
+      {
+        "text": "four",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0074ae74-4856-4ef0-940a-5924c4f0a900",
+    "data": [
+      {
+        "text": "five",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f4eb7c8-43f1-4798-b144-126e22869a2d",
+    "data": [
+      {
+        "text": "give ",
+        "userDefined": false
+      },
+      {
+        "text": "5 stars",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4011bf0e-eb9e-467f-8b38-5f6880fcfc8e",
+    "data": [
+      {
+        "text": "star5",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8fdef157-467a-426f-8cab-2c891c9af483",
+    "data": [
+      {
+        "text": "stars 5",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08865adc-615e-4b25-8d48-fa0d1aac3250",
+    "data": [
+      {
+        "text": "3 stars",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "93410f3a-d3bf-4487-8f37-3cf7fad2d310",
+    "data": [
+      {
+        "text": "2stars",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f727101-aed1-46ac-8bb2-394ee0143687",
+    "data": [
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53702eed-e1ea-4765-a949-716c81228857",
+    "data": [
+      {
+        "text": "rating is",
+        "userDefined": false
+      },
+      {
+        "text": " i",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f70157af-7647-4c45-8b22-b563ea198f87",
+    "data": [
+      {
+        "text": "rating is ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63d443c0-0869-4a86-843c-f5df37416f1c",
+    "data": [
+      {
+        "text": "rate ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19d2604f-275c-4233-89ed-321880f1a3b7",
+    "data": [
+      {
+        "text": "give ",
+        "userDefined": false
+      },
+      {
+        "text": "five",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "267bd71c-f5ce-408f-b3f6-9586870fad93",
+    "data": [
+      {
+        "text": "give",
+        "userDefined": false
+      },
+      {
+        "text": " v",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46198489-1011-444f-90f6-a7d40b72e15b",
+    "data": [
+      {
+        "text": "i will rate ",
+        "userDefined": false
+      },
+      {
+        "text": "iv",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c65e770-cb92-412a-b63a-4bad765c20e1",
+    "data": [
+      {
+        "text": "a ",
+        "userDefined": false
+      },
+      {
+        "text": "couple",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " of stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e4feb01e-a8b0-4624-9387-3b8d90dad5b5",
+    "data": [
+      {
+        "text": "star ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86282a6e-5a62-4400-8378-dc67e140e977",
+    "data": [
+      {
+        "text": "star ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff389028-c1ee-4658-8e71-83010683abed",
+    "data": [
+      {
+        "text": "five",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f3b7668-935e-402e-8905-0a88bcf7b834",
+    "data": [
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "093ded11-9d67-4824-a2c2-8b8c551a8279",
+    "data": [
+      {
+        "text": "i will give ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c93e0403-b00e-4567-9436-2945f62f2cde",
+    "data": [
+      {
+        "text": "I will give ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "01b3a61c-07d4-4479-aca8-b4c03306a357",
+    "data": [
+      {
+        "text": "four",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2dced075-c5c8-4aa0-b6e3-e667d710e3a0",
+    "data": [
+      {
+        "text": "three",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8bccdd87-6395-4425-8198-8a28534197d4",
+    "data": [
+      {
+        "text": "two",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "624970a4-eff2-4d26-94dd-e07b0bdcda6a",
+    "data": [
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

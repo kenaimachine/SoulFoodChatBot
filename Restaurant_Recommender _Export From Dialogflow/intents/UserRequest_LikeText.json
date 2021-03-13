@@ -1,0 +1,93 @@
+{
+  "id": "bf73e3c7-3620-4259-9a43-da1e2b98dee8",
+  "name": "UserRequest_LikeText",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "ctx_affinity_test",
+    "passtouserrequest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "passtouserrequest",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "UserRequest_LikeText-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "200de29c-eba5-4c3b-93e1-15a8b9ce7bb8",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "like_text",
+          "value": "$like_text",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Tell me something you DO NOT WANT 😡 to have in your restaurant today. 👉You can be as detailed as you like. For example, \" I do not enjoy pizza..\"",
+            "Is there any restaurant experiences that you DO NOT WANT 😡to have today? 👉You can be as detailed as you like. For example, \" I do not enjoy eating burgers.\"",
+            "Please tell me what you DISLIKE😡 about a restaurant. 👉You can be as detailed as you like. For example, \" I don\u0027t like a touristy restaurant. The tourist crowd spoils my mood.\""
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘Any Examples On What I Should Write?",
+          "replies": [
+            "☹️👎#$@!🗯️"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Tell me something you DO NOT WANT to have in your restaurant today. You can be as detailed as you like. For example, \" I do not enjoy pizza..\"",
+            "Is there any restaurant experiences that you DO NOT WANT to have today? You can be as detailed as you like. For example, \" I do not enjoy eating burgers.\"",
+            "Please tell me what you DISLIKE about a restaurant. You can be as detailed as you like. For example, \" I don\u0027t like a touristy restaurant. The tourist crowd spoils my mood.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "c495670d-188e-49de-9ada-372d98aaa579",
+  "name": "QuickSearch_askLike",
+  "auto": true,
+  "contexts": [
+    "welcomeintro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "welcomeintro",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "QuickSearch_askLike-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Describe a restaurant experience that you like to have today.  You can be as detailed as you like.",
+            "What is a restaurant experience that you want to enjoy today? I want to hear from you. You can be as detailed as you like.",
+            "Do you have a restaurant experience that you want to enjoy today? Tell me. You can be as detailed as you like."
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘Any Examples On What I Should Write?",
+          "replies": [
+            "👍An_Example"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Describe a restaurant experience that you like to have today.  You can be as detailed as you like.",
+            "What is a restaurant experience that you want to enjoy today? I want to hear from you. You can be as detailed as you like.",
+            "Do you have a restaurant experience that you want to enjoy today? Tell me. You can be as detailed as you like."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "bc3a30e3-3ae3-4eb2-ab81-cb70dacb3954",
+  "name": "Greetings_hiName_OpeningQns",
+  "auto": true,
+  "contexts": [
+    "greetingsname",
+    "welcomeintro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "greetingsname",
+          "parameters": {},
+          "lifespan": 20
+        },
+        {
+          "name": "ctx_opening_qns",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_welcome",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "welcomeintro",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "Greetings_hiName_OpeningQns-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "suggestwords",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b355dc6-1aaa-4cae-bfb5-7e09135b18d9",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Hi 👋 $given-name, nice to meet you 🤝.Great! I\u0027m always eager to help others. Give me ONE word 👌that describe your mood now💭. For example: \u0027Neutral\u0027 or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Hello👋 $given-name, it\u0027s my pleasure to serve you today 🤝. Excellent! Tell me how you feeling now. Please use ONE word 👌 to describe your mood now 💭. For example: \u0027Neutral\u0027, or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "It\u0027s a great pleasure to know you 👋, $given-name. You\u0027re brilliant! I enjoy knowing people 🤝. Tell me how you feeling now?💭 Use just ONE WORD 👌. For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "🤝 Wonderful $given-name,! 👋 I always enjoy chatting 💬 with humans So, $given-name, how are you feeling now? 💭Tell me in just  ONE WORD👌 .For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "\u003cstrong\u003eDo you need some hints? Click 👇 \"Suggest_Some_Words\" button below.\u003c/strong\u003e",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "👉Suggest Some Words",
+                      "callback_data": "👉Suggest Some Words"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi $given-name, nice to meet you.Great! I\u0027m always eager to help others. Give me ONE word that describe your mood now. For example: \u0027Neutral\u0027 or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Hello $given-name, it\u0027s my pleasure to serve you today. Excellent! Tell me how you feeling now. Please use ONE word to describe your mood now. For example: \u0027Neutral\u0027, or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "It\u0027s a great pleasure to know you, $given-name. You\u0027re brilliant! I enjoy knowing people. Tell me how you feeling now? Use just ONE WORD. For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Wonderful $given-name,! I always enjoy chatting with humans So, $given-name, how are you feeling now? Tell me in just  ONE WORD.For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

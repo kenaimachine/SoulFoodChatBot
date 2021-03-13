@@ -1,0 +1,123 @@
+{
+  "id": "fcb5b614-0c30-4326-a5f2-810d528d4483",
+  "name": "UserRequest_DislikeText",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "ctx_affinity_test",
+    "ctx_like_text",
+    "passtouserrequest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "userrequestdisliketext",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "passtouserrequest",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d4aec903-35ab-45b0-bcf6-4775f2ecf50d",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "dislike_text",
+          "value": "$dislike_text",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Thank you🙏 for the responses. I will bear in mind your LIKES \u0026 DISLIKES and my understanding of your mood today to make a recommendation. 👉 Shall I proceed to make a recommendation to you?",
+            "I am very excited ✨ to make a restaurant recommendation to you after listening carefully your LIKES \u0026 DISLIKES, as well as, your mood today. 👉Can I proceed to make a recommendation to you?",
+            "We have a very fruitful conversation 🤝. I will remember you LIKES and DISLIKES while I think deeply on what restaurants to recommend to you. 👉Can I proceed to make a recommendation to you?"
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "\u003cstrong\u003ePlease Click The Button Below To Proceed\u003c/strong\u003e\nYour LIKE input❤️:#ctx_like_text.like_text\nYour DISLIKE input💔: $dislike_text \n \u003cstrong\u003eDon\u0027t worry if you mixed up the LIKE and DISLIKE texts. I am smart enough to know. 👉Proceed?\u003c/strong\u003e",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Proceed To Recommend🤔",
+                      "callback_data": "/proceedRecommendation"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "👉If No Reply In 5 Secs⁉️ Rush ME!😬",
+                      "callback_data": "💢Hurry_UP‼️"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "👉Change Your Mind🤔? Let\u0027s Restart !😅",
+                      "callback_data": "💢/restart‼️"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you for the responses. I will bear in mind your LIKES \u0026 DISLIKES and my understanding of your mood today to make a recommendation. Shall I proceed to make a recommendation to you?",
+            "I am very excited to make a restaurant recommendation to you after listening carefully your LIKES \u0026 DISLIKES, as well as, your mood today. Can I proceed to make a recommendation to you?",
+            "We have a very fruitful conversation. I will remember you LIKES and DISLIKES while I think deeply on what restaurants to recommend to you. Can I proceed to make a recommendation to you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

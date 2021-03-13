@@ -1,0 +1,86 @@
+{
+  "id": "7a9ab583-7aa7-40b7-9a8e-23dcfc982324",
+  "name": "PassTo_AffinityTest_1starQns",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "2ndqns-family"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "2ndqns-family",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "passaffinitytest",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "PassTo_AffinityTest_1starQns-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d0666723-a8be-4384-a86d-015aa8f1629e",
+          "required": false,
+          "dataType": "@Core_Affect_Adjectives",
+          "name": "sentiment_text_3",
+          "value": "$sentiment_text_3",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Thank you for sharing your day with me. #greetingsname.given-name, I need your help.",
+          "subtitle": "A customer gave a restaurant a 1star rating. His review was \"I will never come back. Customer service was poor. It\u0027s such a waste of my time. This is the last time I will return.\" How many stars will you give from reading this review? (1 star\u003dLousy. 5 stars\u003dExcellent.) /1star  /2stars  /3stars  /4stars  /5stars",
+          "imageUrl": "https://bkvw8g.ch.files.1drv.com/y4mKs-oz3wOQLTjW_SnBP30R6Ind6gMam5xOhOrYnN72LCO2rYcFFaqe_QxqKN4lAKgb53JWq5z1Ja1fJVpoUEJzXqoE5lk-AJ551brgg2RFV0hgbV80-SYLFmxn_B4EjuGqHshwX-BmusAFa_SlDHQYYsEOttKM7MfeSESvxSxrg7tUZr7R8yD6oVAQRr06ZXkTVSw2naOocgEPQHhMmA_Kw?width\u003d842\u0026height\u003d896\u0026cropmode\u003dnone"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Need some hints? Click 👇  button below.",
+          "replies": [
+            "🆘What_should_i_do"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you for sharing your day with me. #greetingsname.given-name, I need your help. A customer gave a restaurant a 1star rating. His review was \"I will never come back. Customer service was poor. It\u0027s such a waste of my time. This is the last time I will return.\" How many stars will you give from reading this review? (1 star\u003dLousy. 5 stars\u003dExcellent.) /1star  /2stars  /3stars  /4stars  /5stars",
+            "I really appreciate your sharing today.#greetingsname.given-name, can you help me? A customer visited a restaurant and gave this review : \"I will never come back. Customer service was poor. It\u0027s such a waste of my time. This is the last time I will return.\" The customer gave a 1 star rating. How many stars will you give from reading this review? (1 star\u003dLousy. 5 stars\u003dExcellent.) /1star  /2stars  /3stars  /4stars  /5stars",
+            "Thanks. #greetingsname.given-name, I need your help. Can you help me? A customer gave a restaurant a 1star rating. His review was \"I will never come back. Customer service was poor. It\u0027s such a waste of my time. This is the last time I will return.\" How many stars will you give from reading this review? (1 star\u003dLousy. 5 stars\u003dExcellent.) /1star  /2stars  /3stars  /4stars  /5stars",
+            "Good to hear about your day, #greetingsname.given-name. By the way, I need your assistance. A customer visited a restaurant and gave this review : \"I will never come back. Customer service was poor. It\u0027s such a waste of my time. This is the last time I will return.\" The customer gave a 1 star rating. How many stars will you give from reading this review? (1 star\u003dLousy. 5 stars\u003dExcellent.) /1star  /2stars  /3stars  /4stars  /5stars"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

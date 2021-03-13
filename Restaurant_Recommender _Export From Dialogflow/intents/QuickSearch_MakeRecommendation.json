@@ -1,0 +1,80 @@
+{
+  "id": "a0a6de4f-e7b4-4620-9e98-f3152468fc46",
+  "name": "QuickSearch_MakeRecommendation",
+  "auto": true,
+  "contexts": [
+    "ctx_dislike_text",
+    "ctx_like_text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "quicksearch",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f9efeac4-a4dc-48ef-8ce5-603593b26b3f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "dislike_text",
+          "value": "$dislike_text",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "\u003cstrong\u003ePress button below to start.\u003c/strong\u003e If you don\u0027t see a result in 5seconds. Click 💢\"Hurry Up\" ‼️button again below.",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "💢Hurry Up‼️Recommend🤔",
+                      "callback_data": "💢Rush_This_Please‼️"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

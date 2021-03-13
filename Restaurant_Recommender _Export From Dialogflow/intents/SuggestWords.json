@@ -1,0 +1,45 @@
+{
+  "id": "0df637a4-f651-4677-8af8-bdfd7a147137",
+  "name": "SuggestWords",
+  "auto": true,
+  "contexts": [
+    "suggestwords"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "suggestwords",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "🧐According to my rather limited vocabulary, here\u0027s some words👉  /buoyant, /active, /angry, /blank, /casual, /cheerless, /afraid, /dull, /cool",
+            "🧐I really cracked my brain. So here\u0027s some words 👉 /indifferent, /serene, /contented, /jovial, /high, /pissed, /listless, /stony, /regret, /worried",
+            "🧐I think very hard already. So here\u0027s some words 👉 /pressure, /gloomy, /nonchalant, /void, /mad, /enthusiastic, /cheerful, /unfazed, /weary"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

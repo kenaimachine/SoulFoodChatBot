@@ -1,0 +1,36 @@
+{
+  "id": "923d9873-d44e-46d9-89f9-4b27ea2806bc",
+  "name": "QuickSearch_RushRecommender",
+  "auto": true,
+  "contexts": [
+    "quicksearch"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_task_simple",
+      "affectedContexts": [
+        {
+          "name": "quicksearch",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "c5b8587e-dc66-429e-9afc-d12a8c1da433",
+  "parentId": "b8a66dd7-4f49-4fc4-8b7e-e9c00a11f03a",
+  "rootParentId": "b8a66dd7-4f49-4fc4-8b7e-e9c00a11f03a",
+  "name": "1stQns-yesterday - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sentiment_text",
+    "1stqns-yesterday",
+    "1stQns-yesterday-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "1stQns-yesterday.1stQns-yesterday-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "Please use only one word. Please click the \"👉/Suggest_Some_Words\" button to get some words you can use. 🙇My apology, I am very 📗. I have limited vocabulary. 🤔",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "👉Suggest Some Words",
+                      "callback_data": "👉Suggest Some Words"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

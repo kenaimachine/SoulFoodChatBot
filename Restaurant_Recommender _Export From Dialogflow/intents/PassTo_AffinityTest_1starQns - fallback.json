@@ -1,0 +1,78 @@
+{
+  "id": "06743d7e-8b1f-4550-961e-7f0c6785f747",
+  "parentId": "7a9ab583-7aa7-40b7-9a8e-23dcfc982324",
+  "rootParentId": "7a9ab583-7aa7-40b7-9a8e-23dcfc982324",
+  "name": "PassTo_AffinityTest_1starQns - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sentiment_text",
+    "PassTo_AffinityTest_1starQns-followup",
+    "passaffinitytest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "\u003cstrong\u003eMaybe your input was wrong?\u003c/strong\u003e Read the text above and decide how many stars rating you will give.",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "⭐1 Star",
+                      "callback_data": "/1star"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "⭐⭐2 Stars",
+                      "callback_data": "/2stars"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "⭐⭐⭐3 Star",
+                      "callback_data": "/3stars"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "⭐⭐⭐⭐4 Star",
+                      "callback_data": "/4stars"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "⭐⭐⭐⭐⭐5 Stars",
+                      "callback_data": "/5stars"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Well, simply the read the text and decide what rating you will give."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

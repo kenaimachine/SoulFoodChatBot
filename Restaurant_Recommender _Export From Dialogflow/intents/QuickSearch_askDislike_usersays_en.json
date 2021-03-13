@@ -1,0 +1,38 @@
+[
+  {
+    "id": "7d900b8a-2e6c-4187-a1a9-2f3adecc0473",
+    "data": [
+      {
+        "text": "we ",
+        "userDefined": false
+      },
+      {
+        "text": "like an amazing place for food, desserts and wine selection 🍲. Like to have some fresh delicious oysters at reasonable price.",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3386b810-7652-46a3-8275-202f07111b2b",
+    "data": [
+      {
+        "text": " i ",
+        "userDefined": false
+      },
+      {
+        "text": "like an amazing place for food, desserts and wine selection 🍲. Like to have some fresh delicious oysters at reasonable price.",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

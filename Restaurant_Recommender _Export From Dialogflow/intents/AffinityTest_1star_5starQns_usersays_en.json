@@ -1,0 +1,328 @@
+[
+  {
+    "id": "ab190196-dfdc-4c9c-9e0c-4b1f165d3e39",
+    "data": [
+      {
+        "text": "excellent",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "badc5a86-4e58-4713-9b3a-e5a6d8e634a7",
+    "data": [
+      {
+        "text": "lousy",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e8325032-75d8-4fe8-8344-2f98dc945e0b",
+    "data": [
+      {
+        "text": "5",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fe209fb-2512-4d4c-b18d-655bc2856b98",
+    "data": [
+      {
+        "text": "4",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a51b68f0-b482-4b93-930c-55ca3b7c4511",
+    "data": [
+      {
+        "text": "3",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b662f54-6750-43d2-af71-216c634b7027",
+    "data": [
+      {
+        "text": "five",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5fa65cfa-3afe-481e-a15e-c0a79e0ca661",
+    "data": [
+      {
+        "text": "four",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7674ea91-5cce-423b-8ccc-dc693bc3fcba",
+    "data": [
+      {
+        "text": "three",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f84ed32-4c71-418e-8d7d-a77b4b0b92ac",
+    "data": [
+      {
+        "text": "two",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07d64f6b-b517-42b0-b74d-1d272157eba9",
+    "data": [
+      {
+        "text": "2",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05f31df7-e9b1-4fee-ba89-1aca714a7f92",
+    "data": [
+      {
+        "text": "star ",
+        "userDefined": false
+      },
+      {
+        "text": "two",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd97c5b0-226c-4655-8445-e2d189513135",
+    "data": [
+      {
+        "text": "star 1",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81ea2fed-7983-41d5-b762-e84c2982b672",
+    "data": [
+      {
+        "text": "get ",
+        "userDefined": false
+      },
+      {
+        "text": "1star",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8652f538-31fb-4637-93b5-4b40e3f35f4c",
+    "data": [
+      {
+        "text": "award ",
+        "userDefined": false
+      },
+      {
+        "text": "2 stars",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73cc1a0b-eeff-46b5-96d8-328882f585d2",
+    "data": [
+      {
+        "text": "rate ",
+        "userDefined": false
+      },
+      {
+        "text": "3 stars",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7848a4cb-2f9d-4876-83b4-ace58fe5c05a",
+    "data": [
+      {
+        "text": "give ",
+        "userDefined": false
+      },
+      {
+        "text": "5 stars",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30f545e7-e40c-4691-aa1b-fe2fca65b603",
+    "data": [
+      {
+        "text": "i will give ",
+        "userDefined": false
+      },
+      {
+        "text": "4 stars",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5ef68a8-ea62-44a6-8498-a8d932c26311",
+    "data": [
+      {
+        "text": "rating is",
+        "userDefined": false
+      },
+      {
+        "text": " 1",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d511c1f-f6ed-49a2-8f9f-1e0b0f67fcf4",
+    "data": [
+      {
+        "text": "1",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bdc09660-fd17-4e49-848b-c4e827194cda",
+    "data": [
+      {
+        "text": "1stars",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a78622d-44ef-4d23-923c-8eb37976c6c4",
+    "data": [
+      {
+        "text": "1star",
+        "alias": "affinity_test_1",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

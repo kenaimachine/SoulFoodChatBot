@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d973cefb-ad3e-4388-8f34-e2de9f1c6829",
+    "data": [
+      {
+        "text": " we ",
+        "userDefined": false
+      },
+      {
+        "text": "dislike broccoli and carrots especially when they are overcooked. I do not like a bland eating experience. And i hate getting food poisoning.",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4881c9fe-3b2f-4f06-9119-c5583f5620e2",
+    "data": [
+      {
+        "text": " i ",
+        "userDefined": false
+      },
+      {
+        "text": "dislike broccoli and carrots especially when they are overcooked. I do not like a bland eating experience. And i hate getting food poisoning.",
+        "alias": "dislike_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

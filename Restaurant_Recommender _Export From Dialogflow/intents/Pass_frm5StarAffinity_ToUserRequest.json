@@ -1,0 +1,93 @@
+{
+  "id": "2b81fd40-621a-46db-8fac-1fc0e27c1a99",
+  "name": "Pass_frm5StarAffinity_ToUserRequest",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "ctx_affinity_test",
+    "affinitytest1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "passtouserrequest",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "affinitytest1",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "PassTo_frm5StarAffinity_UserRequest-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6cfc98bb-0bbe-4fb9-acbb-4520fe570401",
+          "required": false,
+          "dataType": "@numberstar",
+          "name": "affinity_test_2",
+          "value": "$affinity_test_2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "It was nice chatting with you👍,#greetingsname.given-name. I understand you better now🤔. Let me recommend you a perfect restaurant for you. Describe a restaurant experience that you like to have today.  You can be as detailed as you like.",
+            "#greetingsname.given-name, I hope we have a nice conversation👍. I felt like I know you better now🤔. What is a restaurant experience that you want to enjoy today? I want to hear from you. You can be as detailed as you like.",
+            "I believe I understand you better now👍, #greetingsname.given-name. Let me recommend you 🤔a perfect restaurant for you. Do you have a restaurant experience that you want to enjoy today? Tell me. You can be as detailed as you like."
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘Any Examples On What I Should Write?",
+          "replies": [
+            "😃An_Example"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It was nice chatting with you,#greetingsname.given-name. I understand you better now. Let me recommend you a perfect restaurant for you. Describe a restaurant experience that you like to have today.  You can be as detailed as you like.",
+            "#greetingsname.given-name, I hope we have a nice conversation. I felt like I know you better now. What is a restaurant experience that you want to enjoy today? I want to hear from you. You can be as detailed as you like.",
+            "I believe I understand you better now, #greetingsname.given-name. Let me recommend you a perfect restaurant for you. Do you have a restaurant experience that you want to enjoy today? Tell me. You can be as detailed as you like."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

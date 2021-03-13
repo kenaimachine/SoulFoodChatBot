@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f70d11a3-1e8e-47a0-97dc-cd42e604687e",
+    "data": [
+      {
+        "text": "/Suggest_Some_Words",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "52cc30d4-158a-4ecc-a510-17a47b77c462",
+    "data": [
+      {
+        "text": "👉Suggest Some Words",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

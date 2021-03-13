@@ -1,0 +1,36 @@
+{
+  "id": "5fc5e850-1e2b-401d-a621-a8a5e99fa4a5",
+  "name": "An_Example_Like_Text",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Here\u0027s my sample: 🤤i like an amazing place for food, desserts and wine selection 🍲. Like to have some fresh delicious oysters at reasonable price.",
+            "A sample from me  🤤: I love to have curry naan and chapati 🍛at a reasonable price. Prefer a nice and tidy restaurant with some hot and spicy food."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

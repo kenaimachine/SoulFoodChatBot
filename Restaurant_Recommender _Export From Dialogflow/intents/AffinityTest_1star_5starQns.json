@@ -1,0 +1,89 @@
+{
+  "id": "ca1058e6-919d-482f-82dd-281a1f64d354",
+  "name": "AffinityTest_1star_5starQns",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "passaffinitytest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "affinitytest1",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "passaffinitytest",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "AffinityTest_1star_5starQns-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1a3176c1-bf1a-49c5-9e25-f865858d8794",
+          "required": false,
+          "dataType": "@numberstar",
+          "name": "affinity_test_1",
+          "value": "$affinity_test_1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "#greetingsname.given-name, I have a another customer who visited a restaurant and gave a 5stars rating.",
+          "subtitle": "The customer said, \"This is a highly recommended restaurant. It has great food, one of the best. I will definitely come back.\" The customer gave 5 stars rating to the restaurant. How many stars will you give after reading this review? (1star\u003d lousy, 5 stars\u003dexcellent) /1star  /2stars  /3stars  /4stars  /5stars",
+          "imageUrl": "https://aavw8g.ch.files.1drv.com/y4mKtLGAF2-ENBiJ0YcfTq78pe4mkYLGPSW_t2pXGt9g-GPgbzVeaVoDejzZpJsn_41PWmLqzQEXwI1is7_m-Yoj4JW5OECtuROU6zUhiGJNk_bKUI_o97mhiVgu4m-GzG4WNWmB2lZaF8F4_kARP5lekzrorP-J2rqo7EtzLYAG4iCjtotdFc6v0IQJLwsYwCqs9hmnZlm44X-MPvs68_HPQ?width\u003d756\u0026height\u003d654\u0026cropmode\u003dnone"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Need a hint? Click 👇  button below.",
+          "replies": [
+            "🆘What_should_i_do"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I have a another customer who visited a restaurant and gave a 5stars rating. He said, \"This is a highly recommended restaurant. It has great food, one of the best. I will definitely come back.\" How many stars will you give after reading this review? (1star\u003d lousy, 5 stars\u003dexcellent) /1star  /2stars  /3stars  /4stars  /5stars",
+            "A customer said, \"This is a highly recommended restaurant. It has great food, one of the best. I will definitely come back.\" The customer gave 5 stars rating to the restaurant. How many stars will you give after reading this review? (1star\u003d lousy, 5 stars\u003dexcellent) /1star  /2stars  /3stars  /4stars  /5stars"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

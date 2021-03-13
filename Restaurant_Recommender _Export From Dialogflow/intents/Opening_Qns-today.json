@@ -1,0 +1,45 @@
+{
+  "id": "3477f647-797f-498a-a2da-a84befde4f0e",
+  "name": "Opening_Qns-today",
+  "auto": true,
+  "contexts": [
+    "ctx_welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_opening_qns",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_welcome",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great! I\u0027m always eager to help others. Give me ONE word that describe your mood now. Tell me in ONE WORD. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Excellent! Tell me how you feeling now. Please use ONE word to describe your mood now. FTell me in ONE WORD. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Brilliant! I enjoy knowing people. Tell me how you feeling now? Use just ONE WORD. Tell me in ONE WORD. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Wonderful! I always enjoy chatting with humans. So how you feeling now? Tell me in ONE WORD. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

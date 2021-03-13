@@ -1,0 +1,36 @@
+{
+  "id": "717c3781-5416-49ef-96f7-dd5b154ef9c2",
+  "name": "An_Example_DislikeText",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "☹️Here\u0027 my example 🤭: i dislike broccoli and carrots especially when they are overcooked. I do not like a bland eating experience. And i hate getting food poisoning.",
+            "☹️Here\u0027s my example🤭 : I don\u0027t like burgers with overcooked broccoli and carrots. And I dislike poor service. I hate a bland eating experience."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

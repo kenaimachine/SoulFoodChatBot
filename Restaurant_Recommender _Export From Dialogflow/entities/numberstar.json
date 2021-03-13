@@ -1,0 +1,9 @@
+{
+  "id": "6fdfeb21-15ab-4f63-a7ac-23f6d83452cd",
+  "name": "numberstar",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

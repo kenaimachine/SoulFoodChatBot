@@ -1,0 +1,104 @@
+{
+  "id": "086307ca-603c-4940-a069-7f7b72842e40",
+  "name": "WelcomeIntro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "welcomeintro",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_opening_qns",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_welcome",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "greetingsname",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "WelcomeIntro-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "suggestwords",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Hi. I am Soul Food Bot.",
+          "subtitle": "I\u0027m a restaurant recommender chatbot.",
+          "imageUrl": "https://a6vw8g.ch.files.1drv.com/y4mVuHT6Oqq8u86IG37pTH030fSJni34L1oTipoIhT8EiiOwI5e5dfQUi3QvuaBJeh0Syd_eH0EuoddKfp-q4ARv5jXmMa2vL99vAZPmPHS9AC5PwFwlymKq6OlZDALdxbv1JjCaWqZABF6q_ROiDq3HabwcfF_zShAVPLM7v-AoiEk1BzIGhz7y47lz3ISKp5Lj4JJMrlxLlYsJS0zTE-7zw?width\u003d1080\u0026height\u003d1080\u0026cropmode\u003dnone",
+          "buttons": [
+            {
+              "text": "Use Quick Search (less precise but faster)",
+              "postback": "/quickSearchLike"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "I read 🤓180,000 reviews of 🍜restaurants 🍔 in Las Vegas🌆. I think I can recommend you some nice restaurants! 🔮To start, chat with me for a while, so that I can understand you better before making any recommendations. 👉Let\u0027s start. What\u0027s your name?",
+            "I have been trained with🤓 180,000 reviews of restaurants in Las Vegas🌆. I can recommend  🔮some nice restaurants to you! Let\u0027s chat for a while. 👉To begin, what\u0027s your name?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello My name is Soul-Food, I\u0027m a restaurant recommender chatbot.I\u0027m know 180,000 reviews of restaurants in Las Vegas. I can recommend you some nice restaurants! To start, chat with me for a while, so that I can understand you better before making any recommendations. Let\u0027s start. What\u0027s your name?",
+            "Hi there! I\u0027m  Soul-Good, a restaurant recommender chatbot.I\u0027m know 180,000 reviews of restaurants in Las Vegas. I can recommend you some nice restaurants! Let\u0027s chat for a while, so that I can understand you better before making any recommendations. To begin, what\u0027s your name?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

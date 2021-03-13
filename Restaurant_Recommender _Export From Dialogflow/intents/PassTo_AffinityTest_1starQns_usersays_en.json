@@ -1,0 +1,128 @@
+[
+  {
+    "id": "5143e5d3-7f4c-475f-81b5-007536d21eff",
+    "data": [
+      {
+        "text": "tense",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c8775ff-e075-454f-acfd-f9b5877cb5ca",
+    "data": [
+      {
+        "text": "sad",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed754574-d00a-4f84-a7aa-518c319e7dad",
+    "data": [
+      {
+        "text": "relaxed",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "141a7215-9e27-4156-966c-cbf14da71135",
+    "data": [
+      {
+        "text": "neutral",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e443bb9a-10ec-4321-b6b8-af034a4adb0b",
+    "data": [
+      {
+        "text": "irritated",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "10e587bd-a7ed-45a9-95f0-f92c7b964a26",
+    "data": [
+      {
+        "text": "excited",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f2ad23b-8667-415d-bd9a-9cb3d9c34528",
+    "data": [
+      {
+        "text": "cheerful",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75d2668d-d80f-46ff-ac47-d365d4cbe6e7",
+    "data": [
+      {
+        "text": "calm",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e909cc9c-3cd4-46ff-81db-d3ecb568bd88",
+    "data": [
+      {
+        "text": "bored",
+        "alias": "sentiment_text_3",
+        "meta": "@Core_Affect_Adjectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

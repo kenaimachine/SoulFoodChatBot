@@ -1,0 +1,45 @@
+{
+  "id": "9c813fe8-42d8-4e91-bf99-ba56a2357282",
+  "parentId": "086307ca-603c-4940-a069-7f7b72842e40",
+  "rootParentId": "086307ca-603c-4940-a069-7f7b72842e40",
+  "name": "WelcomeIntro - fallback",
+  "auto": false,
+  "contexts": [
+    "welcomeintro",
+    "greetingsname",
+    "WelcomeIntro-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "I\u0027m sorry, 🤭I have not learned all the names in this world. You can help me by saying\" My name is \" before typing your name.",
+          "replies": [
+            "Let Me Try Again🤔"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, I have not learned all the names in this world. You can help me by saying\" My name is \" before typing your name.",
+            "My apologies. Learning all the names in this world is not really my best ability. Please help me by using simpler words. You can say\" name is \u003c fill in your-name\u003e\"."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

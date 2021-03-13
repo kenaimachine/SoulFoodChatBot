@@ -1,0 +1,99 @@
+{
+  "id": "653836ee-41c5-4d09-8cdf-d95d0a3953d2",
+  "name": "PassTo_AskToProceed_MakeRecommendation",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "ctx_affinity_test",
+    "ctx_like_text",
+    "userrequestdisliketext",
+    "ctx_dislike_text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_task",
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "userrequestdisliketext",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "asktoproceed",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "\u003cstrong\u003eIf you don\u0027t see a result in 5seconds. Click 💢\"Hurry Up\" ‼️button below.\u003c/strong\u003e",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "💢Hurry Up‼️Recommend🤔",
+                      "callback_data": "💢Hurry_UP‼️"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "😅Restart !👌",
+          "replies": [
+            "▶️/restart"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "#greetingsname.given-name, to restart, type /restart",
+            "#greetingsname.given-name, if you like to try another time, just type /restart.",
+            "I\u0027m always eager to do better and make better recommendations for you. #greetingsname.given-name, to try again, please type /restart."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

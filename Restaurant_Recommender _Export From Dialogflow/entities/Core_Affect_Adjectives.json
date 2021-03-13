@@ -1,0 +1,9 @@
+{
+  "id": "d6433cd5-6c59-48cf-bef5-e917e623af38",
+  "name": "Core_Affect_Adjectives",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,76 @@
+{
+  "id": "629b13d1-ec38-4584-b02d-e7ddcd3f5dc1",
+  "name": "QuickSearch_askDislike",
+  "auto": true,
+  "contexts": [
+    "ctx_like_text"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "beddb668-5fea-4079-8ec1-fa5fe80c7148",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "like_text",
+          "value": "$like_text",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Tell me something you DO NOT WANT to have in your restaurant today. You can be as detailed as you like. For example, \" I do not enjoy pizza..\"",
+            "Is there any restaurant experiences that you DO NOT WANT to have today? You can be as detailed as you like. For example, \" I do not enjoy eating burgers.\"",
+            "Please tell me what you DISLIKE about a restaurant. You can be as detailed as you like. For example, \" I don\u0027t like a touristy restaurant. The tourist crowd spoils my mood.\""
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘Any Examples On What I Should Write?",
+          "replies": [
+            "☹️👎#$@!🗯️"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Tell me something you DO NOT WANT to have in your restaurant today. You can be as detailed as you like. For example, \" I do not enjoy pizza..\"",
+            "Is there any restaurant experiences that you DO NOT WANT to have today? You can be as detailed as you like. For example, \" I do not enjoy eating burgers.\"",
+            "Please tell me what you DISLIKE about a restaurant. You can be as detailed as you like. For example, \" I don\u0027t like a touristy restaurant. The tourist crowd spoils my mood.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

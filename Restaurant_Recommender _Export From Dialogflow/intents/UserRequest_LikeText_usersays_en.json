@@ -1,0 +1,362 @@
+[
+  {
+    "id": "acee3a4d-405a-4012-bfa5-e352d09ec2b6",
+    "data": [
+      {
+        "text": " I ",
+        "userDefined": false
+      },
+      {
+        "text": "love to have curry naan and chapati 🍛at a reasonable price. Prefer a nice and tidy restaurant with some hot and spicy food.",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8340a16-a47e-494c-a039-927f5e69c505",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "like an amazing place for food, desserts and wine selection 🍲. Like to have some fresh delicious oysters at reasonable price.",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faedc7e0-cf25-4cec-99db-3d87246ed4f8",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "think i want it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a94e8ec-0e26-46da-9f68-2a2aba0192e2",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "want it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27654acf-82e4-424f-ae02-d3b0c4402e12",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "support it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38ee964b-57b3-406e-ac25-f2185059e0d7",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "will patronise it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "166e267a-7782-4e46-9ed8-3f575091baff",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "settle on it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46293ab6-d699-4559-8d4e-3de93d5b2e04",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "will nominate it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c345d181-2661-4433-9808-128c3641774a",
+    "data": [
+      {
+        "text": "i\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "incline towards it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c894056a-88d9-4ab7-a418-b87a20aba4c7",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "opt for it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31c2cec9-d275-4517-8cd5-2767937b84ad",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "desire it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddde5734-74a5-47a8-9989-a0cc60278248",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "wish it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1955ff3e-b1a0-430d-aca5-533584a86cf2",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "inclined it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42b4346e-b1f3-4ebf-90ee-ad489db40ba0",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "fancy it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "89ac27b0-7887-41d7-8828-a293c4612764",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "select it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c4ed5d3-99c6-4105-a4d7-58a72bae64ac",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "pick it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "642b38d1-e253-4af2-b0dd-9a9d35a94eea",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "favour it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "206d5dee-afb4-4c9a-946c-3165ed8e7401",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "prefer it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "682a706d-6f40-4d4d-8836-8ee6f381b8db",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "like it was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d983a2a6-a411-42d8-9373-fdceae7c30ad",
+    "data": [
+      {
+        "text": "it ",
+        "userDefined": false
+      },
+      {
+        "text": "was the best pizza experience ever",
+        "alias": "like_text",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

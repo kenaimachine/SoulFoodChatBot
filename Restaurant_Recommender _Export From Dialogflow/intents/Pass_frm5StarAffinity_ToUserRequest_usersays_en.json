@@ -1,0 +1,336 @@
+[
+  {
+    "id": "7ae300b7-3942-4b70-abe8-70b6eb09726c",
+    "data": [
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e566140-adcd-4e9e-945c-840a56a1aea8",
+    "data": [
+      {
+        "text": "two",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d86354c0-1d83-4869-8aa7-125c6deeeb29",
+    "data": [
+      {
+        "text": "three",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a61b169a-7711-4188-a7ae-ceb5ba66286e",
+    "data": [
+      {
+        "text": "four",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "082559c5-15f2-44bc-bdb4-69f89ca9fc99",
+    "data": [
+      {
+        "text": "five",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e429b159-e1a8-4171-bcb6-02d44d65f744",
+    "data": [
+      {
+        "text": "i will give ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ac3f709-f8ce-4f37-889c-0aadea17183e",
+    "data": [
+      {
+        "text": "i will give ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a756d688-4ec2-4a01-be53-8d174b6b54f2",
+    "data": [
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71c01810-21e1-4634-a037-367287665295",
+    "data": [
+      {
+        "text": "star ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0c3733b-c72f-4e23-948b-a89495d71978",
+    "data": [
+      {
+        "text": "star ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd276563-8fa5-4349-b485-92ed0501e7f7",
+    "data": [
+      {
+        "text": "a ",
+        "userDefined": false
+      },
+      {
+        "text": "couple",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " of stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46fe6992-8382-4dd3-a502-564a0e06b842",
+    "data": [
+      {
+        "text": "i will rate ",
+        "userDefined": false
+      },
+      {
+        "text": "iv",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2753b298-1dcf-47d1-9101-702dce6e5882",
+    "data": [
+      {
+        "text": "give",
+        "userDefined": false
+      },
+      {
+        "text": " v",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b3640cf6-7777-456b-862b-f711bf1905da",
+    "data": [
+      {
+        "text": "give ",
+        "userDefined": false
+      },
+      {
+        "text": "five",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea149043-93ce-472f-9640-710ac49a6436",
+    "data": [
+      {
+        "text": "rate ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      },
+      {
+        "text": " star",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae9ca6f5-0ac7-4520-8e5e-527b07b199c7",
+    "data": [
+      {
+        "text": "rating is ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5b7b2d5-98b9-40d0-8673-0516481c74b5",
+    "data": [
+      {
+        "text": "rating is ",
+        "userDefined": false
+      },
+      {
+        "text": "i",
+        "alias": "affinity_test_2",
+        "meta": "@numberstar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

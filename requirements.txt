@@ -1,0 +1,6 @@
+Flask==1.0.2
+requests==2.21.0
+python-dotenv==0.8.2
+sqlite3==3.28.0
+pytz==2019.1
+jsonschema==3.0.1

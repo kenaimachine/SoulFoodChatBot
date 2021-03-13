@@ -1,0 +1,94 @@
+[
+  {
+    "value": "1",
+    "synonyms": [
+      "1",
+      "I",
+      "LONE",
+      "Lousy",
+      "ONE",
+      "One",
+      "Only",
+      "Single",
+      "Singular",
+      "Sole",
+      "i",
+      "lone",
+      "lousy",
+      "one",
+      "only",
+      "single",
+      "singular",
+      "sole"
+    ]
+  },
+  {
+    "value": "2",
+    "synonyms": [
+      "2",
+      "Couple",
+      "Double",
+      "Dual",
+      "II",
+      "TWO",
+      "Twin",
+      "Two",
+      "couple",
+      "double",
+      "dual",
+      "ii",
+      "twin",
+      "two"
+    ]
+  },
+  {
+    "value": "3",
+    "synonyms": [
+      "3",
+      "III",
+      "THREES",
+      "Three",
+      "Thrice",
+      "Triple",
+      "iii",
+      "three",
+      "threes",
+      "thrice",
+      "triple"
+    ]
+  },
+  {
+    "value": "4",
+    "synonyms": [
+      "4",
+      "Four",
+      "Fourfold",
+      "IIII",
+      "IV",
+      "Quad",
+      "Quartet",
+      "four",
+      "fourfold",
+      "iiii",
+      "iv",
+      "quad",
+      "quartet"
+    ]
+  },
+  {
+    "value": "5",
+    "synonyms": [
+      "5",
+      "Excellent",
+      "FIVE",
+      "FIve",
+      "IIIII",
+      "V",
+      "excellent",
+      "five",
+      "iiiii",
+      "quintuple",
+      "v"
+    ]
+  }
+]

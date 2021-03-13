@@ -1,0 +1,34 @@
+{
+  "id": "e5932a82-514a-42b1-a78b-75b9d2329a88",
+  "parentId": "629b13d1-ec38-4584-b02d-e7ddcd3f5dc1",
+  "rootParentId": "629b13d1-ec38-4584-b02d-e7ddcd3f5dc1",
+  "name": "QuickSearch_askDislike - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_like_text",
+    "ctx_dislike_text",
+    "QuickSearch_askDislike-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "QuickSearch_askDislike.QuickSearch_askDislike-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please start your sentence with \"I dislike\". If you prefer to restart, type /restart."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

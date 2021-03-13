@@ -1,0 +1,37 @@
+{
+  "id": "bc7fdc13-c918-47cf-9708-ab82eb0c015c",
+  "parentId": "2b81fd40-621a-46db-8fac-1fc0e27c1a99",
+  "rootParentId": "2b81fd40-621a-46db-8fac-1fc0e27c1a99",
+  "name": "PassTo_frm5StarAffinity_UserRequest - fallback",
+  "auto": false,
+  "contexts": [
+    "PassTo_frm5StarAffinity_UserRequest-followup",
+    "ctx_sentiment_text",
+    "passtouserrequest",
+    "ctx_affinity_test"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Please enter your preferences starting with \"I like\" or I prefer\". Then, I will know how to read your text.  👌",
+            "Although I can read, I do better if you tell me your preferences starting with \"I like\". 👌"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

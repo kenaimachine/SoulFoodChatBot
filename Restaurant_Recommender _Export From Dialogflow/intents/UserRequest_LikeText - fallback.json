@@ -1,0 +1,39 @@
+{
+  "id": "d4b9135e-cbd2-443e-9049-f8844e6a5c5b",
+  "parentId": "bf73e3c7-3620-4259-9a43-da1e2b98dee8",
+  "rootParentId": "bf73e3c7-3620-4259-9a43-da1e2b98dee8",
+  "name": "UserRequest_LikeText - fallback",
+  "auto": false,
+  "contexts": [
+    "UserRequest_LikeText-followup",
+    "ctx_like_text",
+    "ctx_sentiment_text",
+    "passtouserrequest",
+    "ctx_affinity_test"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "UserRequest_LikeText.UserRequest_LikeText-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Please enter your preferences starting with \"I dislike\" or I hate\". Then, I will know how to read your text.  👌",
+            "Although I can read, I do better if you tell me your preferences starting with \"I dislike\". 👌"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

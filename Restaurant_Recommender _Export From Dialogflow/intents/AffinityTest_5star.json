@@ -1,0 +1,73 @@
+{
+  "id": "6ccf5242-c9cd-45d0-80aa-c738a865ab66",
+  "name": "AffinityTest_5star",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "ctx_affinity_test",
+    "affinitytest1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "affinitytest1",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "affinitytest5",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "AffinityTest_5star-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "11519917-b3b0-4f9e-9d25-4f483e93f479",
+          "required": false,
+          "dataType": "@numberstar",
+          "name": "affinity_test_2",
+          "value": "$affinity_test_2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I have a customer who visited a restaurant and gave a 5stars rating. He said, \"This is a highly recommended restaurant. It has great food, one of the best. I will definitely come back.\" How many stars will you give after reading this review? (1star\u003d lousy, 5 stars\u003dexcellent)",
+            "A customer said, \"This is a highly recommended restaurant. It has great food, one of the best. I will definitely come back.\" The customer gave 5 stars rating to the restaurant. How many stars will you give after reading this review? (1star\u003d lousy, 5 stars\u003dexcellent)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "4b8f9334-93c2-4f47-9261-7f7e455fd1a2",
+  "name": "Greetings_name",
+  "auto": true,
+  "contexts": [
+    "welcomeintro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "welcomeintro",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "greetingsname",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "By the way, I\u0027m Soul-Food. I\u0027m a AI.I chatbot. I\u0027m still learning. Please be patient with me. May I know your name?",
+            "Before we start, my name is Soul-Food bot. I can understand simple words and I\u0027m learning everyday.  May I know how to address you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

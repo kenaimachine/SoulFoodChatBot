@@ -1,0 +1,64 @@
+{
+  "id": "c0559d1a-cc97-4cb3-9472-4bb1284dce87",
+  "parentId": "bc3a30e3-3ae3-4eb2-ab81-cb70dacb3954",
+  "rootParentId": "bc3a30e3-3ae3-4eb2-ab81-cb70dacb3954",
+  "name": "Greetings_hiName_OpeningQns - fallback",
+  "auto": false,
+  "contexts": [
+    "Greetings_hiName_OpeningQns-followup",
+    "greetingsname",
+    "ctx_opening_qns"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings_hiName_OpeningQns.Greetings_hiName_OpeningQns-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "I\u0027m sorry 🙇.Please use only One Word. Please click the \"👉/Suggest_Some_Words\" button to get some words you can use. I am very 📗. I have limited vocabulary. 🤔",
+              "parse_mode": "HTML",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "👉Suggest Some Words",
+                      "callback_data": "👉Suggest Some Words"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘I\u0027m Ever-ready to HELP! Click 👇 \"/Suggest_Some_Words\" .",
+          "replies": [
+            "👉Suggest Some Words"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

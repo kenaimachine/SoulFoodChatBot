@@ -1,0 +1,73 @@
+{
+  "id": "4bb1d57a-69ae-4504-b933-3e77433d7437",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_welcome",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_opening_qns",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "suggestwords",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "⚠️I didn\u0027t get that. I\u0027m sorry, we have to restart again. Type /restart.",
+            "⚠️I missed what you said. What was that? Let restart to try again. Type /restart.",
+            "⚠️Sorry, could we do this again? Type /restart.",
+            "⚠️Sorry, can you say that again? Or do you want to restart? Type /restart.",
+            "⚠️Sorry, I didn\u0027t get that. Please rephrase in other ways. I have to restart again. Type /restart.",
+            "⚠️Sorry, what was that? Let restart to try again. Type /restart.",
+            "⚠️Let\u0027s do this one more time.  Type /restart. to start again.",
+            "⚠️I didn\u0027t get that. You have to repeat. Let\u0027s restart. Type /restart."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

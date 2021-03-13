@@ -1,0 +1,45 @@
+{
+  "id": "296ea000-7f0c-404a-98cd-14d9ee723e9e",
+  "parentId": "ca1058e6-919d-482f-82dd-281a1f64d354",
+  "rootParentId": "ca1058e6-919d-482f-82dd-281a1f64d354",
+  "name": "AffinityTest_1star_5starQns - fallback",
+  "auto": false,
+  "contexts": [
+    "AffinityTest_1star_5starQns-followup",
+    "ctx_sentiment_text",
+    "affinitytest1",
+    "ctx_affinity_test"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AffinityTest_1star_5starQns.AffinityTest_1star_5starQns-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "You can just click ONE of these links: ⭐/1star   ⭐⭐ /2stars  ⭐⭐⭐/3stars  ⭐⭐⭐⭐/4stars ⭐⭐⭐⭐⭐ /5stars",
+            "I already prepared all the stars for you. Just click one of these links: ⭐/1star   ⭐⭐ /2stars  ⭐⭐⭐/3stars  ⭐⭐⭐⭐/4stars ⭐⭐⭐⭐⭐ /5stars",
+            "I already prepared all the stars for you. Just click one of these links: ⭐/1star   ⭐⭐ /2stars  ⭐⭐⭐/3stars  ⭐⭐⭐⭐/4stars ⭐⭐⭐⭐⭐ /5stars .If you are still having problem, you may want to type: /restart"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

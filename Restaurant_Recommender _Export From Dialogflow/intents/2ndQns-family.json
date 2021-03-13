@@ -1,0 +1,92 @@
+{
+  "id": "a586fbdf-7e25-4d63-a11f-26e094bf6641",
+  "name": "2ndQns-family",
+  "auto": true,
+  "contexts": [
+    "ctx_sentiment_text",
+    "1stqns-yesterday"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "1stqns-yesterday",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "2ndqns-family",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "2ndQns-family-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "suggestwords",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b7c8128d-b190-473e-8e96-84cf6420d922",
+          "required": false,
+          "dataType": "@Core_Affect_Adjectives",
+          "name": "sentiment_text_2",
+          "value": "$sentiment_text_2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Thanks for sharing 🙏, #greetingsname.given-name. As a bot, I don\u0027t have a family. I never knew how is family life like. Can you tell me how\u0027s your family👪 life today?👌 Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Appreciate your reply🙏, #greetingsname.given-name. I think I know you better. But I never had a family. I don\u0027t know how\u0027s family life like. Can you tell me how\u0027s your family👪 life today?👌 Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "I\u0027m learning something new from you today🙏, #greetingsname.given-name. Thanks for sharing. Do you know I have no family? Can you share with me  how you feel about your 👪 family today? 👌Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "🆘I\u0027m Ever-ready to HELP! Click 👇 \"/Suggest_Some_Words\" .",
+          "replies": [
+            "👉Suggest Some Words"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thanks for sharing, #greetingsname.given-name. As a bot, I don\u0027t have a family. I never knew how is family life like. Can you tell me how\u0027s your family life today? Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Appreciate your reply, #greetingsname.given-name. I think I know you better. But I never had a family. I don\u0027t know how\u0027s family life like. Can you tell me how\u0027s your family life today? Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "I\u0027m learning something new from you today, #greetingsname.given-name. Thanks for sharing. Do you know I have no family? Can you share with me  how you feel about your  family today? Tell me in ONE WORD. For example: \"Neutral\", or some other word. You can also choose one : /bored, /calm, /cheerful /enthusiastic, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

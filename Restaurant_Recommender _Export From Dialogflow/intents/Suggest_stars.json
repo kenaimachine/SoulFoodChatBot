@@ -1,0 +1,36 @@
+{
+  "id": "e020eb2d-411b-494b-a644-33a690c61a16",
+  "name": "Suggest_stars",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "You can just click ONE of these links: ⭐/1star   ⭐⭐ /2stars  ⭐⭐⭐/3stars  ⭐⭐⭐⭐/4stars ⭐⭐⭐⭐⭐ /5stars",
+            "I already prepared all the stars for you. Just click one of these links: ⭐/1star   ⭐⭐ /2stars  ⭐⭐⭐/3stars  ⭐⭐⭐⭐/4stars ⭐⭐⭐⭐⭐ /5stars"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

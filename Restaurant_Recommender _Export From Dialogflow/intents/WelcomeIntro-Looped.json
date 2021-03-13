@@ -1,0 +1,93 @@
+{
+  "id": "3b8964e1-73bf-44e4-908a-84377ffabbc6",
+  "name": "WelcomeIntro-Looped",
+  "auto": true,
+  "contexts": [
+    "asktoproceed",
+    "greetingsname"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "asktoproceed",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "greetingsname",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_opening_qns",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "payload": {
+              "telegram": {
+                "text": "Please click the button below if you need help. 🤔",
+                "reply_markup:": {
+                  "inline_keyboard": [
+                    [
+                      {
+                        "text": "👉What Should I Do?",
+                        "callback_data": "what_should_i_do"
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello again, #greetingsname.given-name. It me, Soul-Food bot. I\u0027m ready to to make more recommendations to you. Give me ONE word that describe your mood now. For example: \u0027Neutral\u0027 or some other word. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "Hello #greetingsname.given-name, it\u0027s my pleasure to serve you again today. Tell me how you feeling now. Please use ONE word to describe your mood now. For example: \u0027Neutral\u0027, or some other word. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "It\u0027s a great pleasure knowing you, #greetingsname.given-name. Tell me how you feeling now? Use just ONE WORD. For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word.",
+            "I hope I didn\u0027t disappoint you, #greetingsname.given-name. I am still learning. So, $given-name, how are you feeling now? Tell me in just  ONE WORD.For example: \u0027Neutral\u0027,  or some other word. You can also choose one : /bored, /calm, /cheerful /excited, /irritated, /neutral, /relaxed, /sad, /tense. Or tell me some other word."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

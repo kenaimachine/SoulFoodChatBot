@@ -1,0 +1,81 @@
+{
+  "id": "1b11fa24-7a4b-49b4-af8a-c2ccc55c1ca2",
+  "name": "RushRecommender",
+  "auto": true,
+  "contexts": [
+    "ctx_like_text",
+    "ctx_dislike_text",
+    "ctx_affinity_test",
+    "ctx_sentiment_text",
+    "userrequestdisliketext"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_task",
+      "affectedContexts": [
+        {
+          "name": "ctx_like_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_dislike_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_affinity_test",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sentiment_text",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "userrequestdisliketext",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "❣️ ok ok👌...💦 thinking very hard now. 😅🤔😖🤔",
+            "huh⁉️ ok 👌I rush now...💦 thinking very hard now. 😅🤔😖🤔"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Do want to 😅Restart !👌",
+          "replies": [
+            "▶️/restart"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "❣️ ok ok👌...💦 thinking very hard now. 🤔",
+            "huh⁉️ ok 👌I rush now...💦 thinking very hard now. 🤔"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
